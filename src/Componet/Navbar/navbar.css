@@ -1,0 +1,57 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: rgb(33 20 20 / 15%) 0px 0px 10px;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+}
+.logo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+li a{
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #555 !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.4s !important;
+    padding: 7px;
+    border-radius: 7px;
+
+}
+nav a:hover,
+nav a.active {
+    color: white!important;
+    cursor: pointer;
+ 
+    background: #6372ff ;
+   
+    color: #fff;
+
+
+}

@@ -1,0 +1,46 @@
+.team{
+    padding: 100px 0;
+
+}
+
+
+.team-title h2{
+    position: relative;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333;
+}
+.team-title h2::after{
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: -10px;
+    margin-left: -30px;
+    left: 50%;
+}
+
+.img-contai img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+.img-contai{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+.img-contai h3{
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    padding-top: 15px;
+
+}
+.img-contai p{
+    color: #888;
+}
+

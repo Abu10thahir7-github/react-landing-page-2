@@ -1,0 +1,30 @@
+.services{
+
+    padding: 100px 0;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    color: #fff;
+}
+
+.ser-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.ser-head h2{
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.services p{
+    color: rgba(255, 255, 255, 0.75);
+}
+.services h3{
+    font-weight: 500;
+    padding: 5px 0;
+    color: #fff;
+
+}
