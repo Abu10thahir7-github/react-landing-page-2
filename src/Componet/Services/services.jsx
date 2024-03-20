@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";git remote set-url origin <new_url>git remote set-url origin <new_url>
+import "./services.css";
 import WbAutoIcon from '@mui/icons-material/WbAuto';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
