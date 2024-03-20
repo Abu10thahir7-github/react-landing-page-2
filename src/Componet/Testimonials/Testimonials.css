@@ -57,6 +57,7 @@
   }
   
   .container-test img {
+    object-fit: cover;
     width: 64px;
     height: 64px;
     float: left;

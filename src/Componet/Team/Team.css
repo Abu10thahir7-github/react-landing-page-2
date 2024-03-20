@@ -27,6 +27,8 @@
     width: 240px;
     height: 240px;
     object-fit: cover;
+    border-radius: 5px;
+
 }
 .img-contai{
     margin-top: 85px;

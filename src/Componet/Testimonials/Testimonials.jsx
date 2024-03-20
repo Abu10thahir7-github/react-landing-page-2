@@ -1,6 +1,8 @@
 import React from "react";
 import "./Testimonials.css";
 import img1 from "./portfolio-1/img1.jpg";
+import client1 from "../imgs/client-1.jpg"
+import client2 from "../imgs/client-2.jpg"
 function Testimonials() {
   return (
     <div className="testimonails">
@@ -10,7 +12,7 @@ function Testimonials() {
 
       <div className="testi-content mt-5">
       <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client1} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
@@ -19,7 +21,7 @@ function Testimonials() {
         </div>
 
         <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client2} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
@@ -27,7 +29,7 @@ function Testimonials() {
           </div>
         </div>
         <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client1} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
@@ -37,7 +39,7 @@ function Testimonials() {
       </div>
       <div className="testi-content">
       <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client2} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
@@ -46,7 +48,7 @@ function Testimonials() {
         </div>
 
         <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client1} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
@@ -54,7 +56,7 @@ function Testimonials() {
           </div>
         </div>
         <div class="container-test">
-          <img src={img1} alt="" />
+          <img src={client2} alt="" />
           <div className="testi-text">
 
           <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
