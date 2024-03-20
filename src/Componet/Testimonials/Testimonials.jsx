@@ -51,7 +51,7 @@ function Testimonials() {
           <img src={client1} alt="" />
           <div className="testi-text">
 
-          <p> ""Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
+          <p> ""Lorem ipsum dolor sit amet,  consectetur adipisicing elit. Praesentium necessitatibus sunt dignissimos ratione voluptatem. Pariatur?""</p>
           <p> <span>Rebecca Flex.</span> </p>
           </div>
         </div>
