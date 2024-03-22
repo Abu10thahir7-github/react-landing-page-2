@@ -46,10 +46,19 @@
 
 .container-test {
     padding: 16px;
-    margin: 16px 0;
+    border: solid 0.2px rgba(128, 128, 128, 0);
+    margin: 16px 10px;
     width: 25%;
+    border-radius: 10px;
+
+    transition: 0.3s;
   }
-  
+   .container-test:hover{
+    box-shadow: rgb(33 20 20 / 15%) 0px 0px 10px;
+    border: solid 0.2px gray;
+    border-radius: 10px;
+
+   }
   .container-test::after {
     content: "";
     clear: both;

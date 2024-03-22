@@ -6,6 +6,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import GitHubIcon from '@mui/icons-material/GitHub';
 function Contact() {
   return (
     <section id="contact">

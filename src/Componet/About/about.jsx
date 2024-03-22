@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import DoneIcon from '@mui/icons-material/Done';
 import img from "./img.jpg";
 function about() {
   return (
@@ -25,18 +26,18 @@ function about() {
             <div className="choose">
               <div className="col-lg-6 col-sm-6">
                 <ul className="list-items">
-                  <li className="items">lorem ipsum</li>
-                  <li className="items"> perspiciatis illum</li>
-                  <li className="items"> quaerat dignissimos</li>
-                  <li className="items"> optio mollitia?</li>
+                  <li className="items"><DoneIcon className="list-icon"/> lorem ipsum</li>
+                  <li className="items"> <DoneIcon className="list-icon"/>  perspiciatis illum</li>
+                  <li className="items"><DoneIcon className="list-icon"/>  quaerat dignissimos</li>
+                  <li className="items"><DoneIcon className="list-icon"/>  optio mollitia?</li>
                 </ul>
               </div>
               <div className="col-lg-6 col-sm-6">
                 <ul className="list-items">
-                  <li className="items">lips umorem </li>
-                  <li className="items">  perspiciatis </li>
-                  <li className="items">  dignissimos quaerat</li>
-                  <li className="items">  optio tia?</li>
+                  <li className="items"><DoneIcon className="list-icon"/> lips umorem </li>
+                  <li className="items"><DoneIcon className="list-icon"/>   perspiciatis </li>
+                  <li className="items"> <DoneIcon className="list-icon"/>  dignissimos quaerat</li>
+                  <li className="items"><DoneIcon className="list-icon"/>   optio tia?</li>
                 </ul>
               </div>
             </div>

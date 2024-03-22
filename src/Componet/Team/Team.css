@@ -28,7 +28,10 @@
     height: 240px;
     object-fit: cover;
     border-radius: 5px;
-
+    transition:  0.4s;
+}
+.img-contai img:hover{
+    box-shadow: rgb(0 0 5 / 50%)  0px 10px 10px;
 }
 .img-contai{
     margin-top: 85px;

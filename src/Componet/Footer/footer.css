@@ -11,3 +11,19 @@
     letter-spacing: 2px;
 
 }
+.footer .git-icon{
+    font-size: 38px;
+    border: solid 2px gray;
+    border-radius: 50%;
+    padding: 3px;
+    transition:  0.4s;
+}
+
+.footer .git-icon:hover{
+    background: black;
+    color: #fff;
+    border: solid 2px black;
+}
+.footer a{
+    color: gray;
+}

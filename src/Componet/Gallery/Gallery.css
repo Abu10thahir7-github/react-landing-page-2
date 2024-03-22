@@ -143,6 +143,6 @@
 
 .container-sam .content img{
         height: 270px;
-    /* width: max-content; */
+        width: 400px;
     object-fit: cover;
 }
